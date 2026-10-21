@@ -1,0 +1,5 @@
+Model,MAE_kWh,RMSE_kWh,WAPE_pct,R2_Score,Specific_Imbalance_Cost_EUR_per_MWh,Cost_Reduction_pct,Total_Imbalance_Cost_EUR
+Level 0: Seasonal Persistence (t-168h),0.7661,1.3925,54.25,0.1701,13.8,0.0,2329.63
+Level 0: Regularized Ridge Regression,0.6261,1.0631,44.34,0.5163,11.28,18.29,1903.46
+Level 1: Global LightGBM Regressor,0.5754,1.062,40.75,0.5172,11.44,17.09,1931.54
+Level 1: Stratified Prosumer Forecaster,0.5714,1.0585,40.46,0.5204,11.36,17.71,1917.06
